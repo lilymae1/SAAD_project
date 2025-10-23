@@ -1,1 +1,9 @@
 
+Database
+- I have decided to use MySQL 
+
+Symphony (PHP)
+- To make it easier to handle all the pages I opted to use the symphony framework 
+
+HTML & CSS
+-As I have decided to make a web application it makes sense that the interface would be made primarily using HTML and CSS for styling 
