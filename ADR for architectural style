@@ -1,6 +1,4 @@
-ADR desicions 
-- There are two main routes I can go down after browsing the many options of software architecture.
-- 
+
 
 Monolith 
 - A monolithic architecture style for complaint managment system would be a simpler approach 
@@ -11,6 +9,36 @@ Onion
 - //background +diagram 
 -poros and cons 
 
+------
 
-My Inital desicion and how it may effect my development 
--
+Context: The symfony web applications architecture direction
+
+My symfony app was originally built using the deafult monolithic structure 
+-Synfony controllers handle HTTP and application logic.
+-Twig templates are tightly coupled to the controllers.
+-All synfony code lives inside of a singular code base.
+
+This is a good approach but the app may need to be scaled so that we can have more users and more companies utilising my system
+-As a result there may be difficulty testing as the domain logic is in isolation.
+-There will be reduced flexibilty 
+
+I aim to keep the deployment monolithic but the internal structure in a more layered domain-centric approach
+
+------
+
+Decision 
+
+To make my application more scalable I will evolve the monolith architecure to follow the onion architecture pattern
+-Domain layer
+-Application layer
+-Infastructure layer 
+-Presentation layer 
+
+------
+
+Concequences 
+
+-Benefits 
+
+
+-Disadvantages
