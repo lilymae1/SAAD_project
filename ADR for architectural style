@@ -33,6 +33,7 @@ To make my application more scalable I will evolve the monolith architecure to f
 -Application layer
 -Infastructure layer 
 -Presentation layer 
+//keep monolithic? explain how many users it would need to have to scale
 
 ------
 
