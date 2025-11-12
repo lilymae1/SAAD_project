@@ -23,7 +23,7 @@ This is a good approach but the app may need to be scaled so that we can have mo
 -There will be reduced flexibilty 
 
 I aim to keep the deployment monolithic but the internal structure in a more layered domain-centric approach
-
+//keep monolithic and explain the amount of people that will be using the system as a way to justifiy this 
 ------
 
 Decision 
@@ -34,6 +34,7 @@ To make my application more scalable I will evolve the monolith architecure to f
 -Infastructure layer 
 -Presentation layer 
 //keep monolithic? explain how many users it would need to have to scale
+//look at monolith layers and the the file structure 
 
 ------
 
@@ -41,5 +42,5 @@ Concequences
 
 -Benefits 
 
-
 -Disadvantages
+//how i will show the monolithic arcitecture style 
