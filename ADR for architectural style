@@ -9,10 +9,11 @@ Monolith
 -The program is simpler to manage and implement since it is all contained in one codebase 
 -//cons
 -Since it is one codebase the entire thing has to be scaled all at once.
+-
 
 Onion
 - //background +diagram 
--poros and cons 
+-pros and cons 
 
 ------
 
@@ -34,7 +35,7 @@ I aim to keep the deployment monolithic but the internal structure in a more lay
 -Application logic 
 -Data acsess layer /doctrine.yaml and /mirgrations (for the database)
 -Database .env file (the actual database file)
--External dependencies composer.json (for my external dependedies)
+-External dependencies composer.json (for my external dependedies like the amazon emails and push notifs apis) 
 -Middleware security.yaml (firewalls etc.)
 
 ------
